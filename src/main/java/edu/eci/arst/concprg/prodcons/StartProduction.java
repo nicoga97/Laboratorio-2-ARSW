@@ -8,30 +8,26 @@ package edu.eci.arst.concprg.prodcons;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.*;
+
+import java.util.concurrent.locks.Lock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static sun.management.snmp.jvminstr.JvmThreadInstanceEntryImpl.ThreadStateMap.Byte0.runnable;
 
 public class StartProduction {
-    private  Producer p;
-    private  Consumer c;
-    
+    private static Producer p;
+    private static Consumer c;
+    private static Queue<Integer> queue = new LinkedBlockingQueue<>();
+
+
     public static void main(String[] args) {
-        
-        Queue<Integer> queue=new LinkedBlockingQueue<>();
 
-        c= new Consumer(queue);
-        p = new Producer(queue,Long.MAX_VALUE);
+
+        p = new Producer(queue, 10);
         p.start();
-        c.setProducer(p);
 
-
-        
         //let the producer create products for 5 seconds (stock).
         try {
             Thread.sleep(5000);
@@ -39,22 +35,30 @@ public class StartProduction {
             Logger.getLogger(StartProduction.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        
+        c = new Consumer(queue);
         c.start();
-        p.setConsumer(c);
-    }
-
-    public synchronized void notifyConsumer(){
-        c.notify();
-    }
-
-    public synchronized void waitConsumer(){
         try {
-            c.wait();
+            p.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
     }
-    
+
+
+
+    public static void notifyConsumer() {
+        if (c != null) {
+            synchronized (c){
+            c.notify();}
+        }
+    }
+    public static void notifyProducer() {
+        if (p!= null) {
+            synchronized (p){
+                p.notify();}
+        }
+    }
+
 
 }
