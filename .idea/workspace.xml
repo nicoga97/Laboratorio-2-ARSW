@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b36e2d-ef0b-48b7-9115-957942d71445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/ControlFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/ControlFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/Immortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/Immortal.java" afterDir="false" />
     </list>
@@ -17,30 +16,31 @@
     <session id="-1599221274">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1554" />
+          <entry key="java" value="1823" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1554" />
+          <entry key="JAVA" value="1823" />
         </counts>
       </usages-collector>
     </session>
@@ -53,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/StartProduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
+            <state relative-caret-position="357">
               <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,12 +74,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/Immortal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
               <folding>
-                <element signature="e#2391#2392#0" expanded="true" />
-                <element signature="e#2420#2421#0" expanded="true" />
+                <element signature="e#2557#2558#0" expanded="true" />
+                <element signature="e#2586#2587#0" expanded="true" />
+                <element signature="e#2803#2804#0" expanded="true" />
+                <element signature="e#2835#2836#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="887" selection-start-line="887" selection-end-line="887" />
             </state>
           </provider>
         </entry>
@@ -87,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/ControlFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
-              <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+            <state relative-caret-position="120">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -105,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="8058">
               <caret line="501" selection-start-line="501" selection-end-line="501" />
             </state>
           </provider>
@@ -114,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="459">
               <caret line="33" column="46" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="46" />
               <folding>
                 <element signature="e#397#398#0" expanded="true" />
@@ -127,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="663">
               <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
@@ -150,10 +161,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1419" />
-    <option name="y" value="-19" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,10 +223,22 @@
               <item name="eci" type="462c0819:PsiDirectoryNode" />
               <item name="highlandersim" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ConcurrentPrgExercises-Highlander-Prod-Cons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming_Syncrhronization_DeadLocks_ThsSuspension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eci" type="462c0819:PsiDirectoryNode" />
+              <item name="highlandersim" type="462c0819:PsiDirectoryNode" />
+              <item name="ControlFrame.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,10 +309,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.24772036" />
-      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" visible="true" weight="0.24772036" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49633253" visible="true" weight="0.25037822" />
+      <window_info id="Structure" order="1" sideWeight="0.5036675" side_tool="true" weight="0.25151977" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32978722" />
       <window_info id="Favorites" order="4" sideWeight="0.5012225" side_tool="true" weight="0.24392097" />
@@ -317,6 +338,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/StartProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/ImmortalUpdateReportCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -326,31 +357,14 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="8058">
           <caret line="501" selection-start-line="501" selection-end-line="501" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/StartProduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="459">
           <caret line="33" column="46" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="e#397#398#0" expanded="true" />
@@ -361,25 +375,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arst/concprg/prodcons/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="663">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="887" selection-start-line="887" selection-end-line="887" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/ControlFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+        <state relative-caret-position="120">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/highlandersim/Immortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
           <folding>
-            <element signature="e#2391#2392#0" expanded="true" />
-            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
           </folding>
         </state>
       </provider>

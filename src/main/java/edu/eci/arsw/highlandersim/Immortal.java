@@ -14,6 +14,8 @@ public class Immortal extends Thread {
 
     private int myIndex;
 
+    private boolean stop=false;
+
     private final List<Immortal> immortalsPopulation;
 
     private final String name;
@@ -32,7 +34,7 @@ public class Immortal extends Thread {
 
     public void run() {
 
-        while (true) {
+        while (!stop && health>0) {
             if (pause) {
                 synchronized (this) {
                     try {
@@ -43,7 +45,6 @@ public class Immortal extends Thread {
                 }
             }
             Immortal im;
-
             myIndex = immortalsPopulation.indexOf(this);
 
             int nextFighterIndex = r.nextInt(immortalsPopulation.size());
@@ -63,7 +64,10 @@ public class Immortal extends Thread {
                 e.printStackTrace();
             }
 
+
         }
+        if(health>0){immortalsPopulation.remove(this);}
+
 
     }
 
@@ -76,7 +80,6 @@ public class Immortal extends Thread {
                     this.health += defaultDamageValue;}
                     updateCallback.processReport("Fight: " + this + " vs " + i2 + "\n");
                 } else {
-                    //i2.kill();
                     updateCallback.processReport(this + " says:" + i2 + " is already dead!\n");
                 }
 
@@ -93,8 +96,9 @@ public class Immortal extends Thread {
         return health;
     }
 
-    public synchronized void kill(){
-        immortalsPopulation.remove(myIndex);
+    public  void kill(){
+
+        immortalsPopulation.remove(this);
 
     }
 
@@ -102,6 +106,10 @@ public class Immortal extends Thread {
         synchronized (this) {
             notify();
         }
+    }
+
+    public void setStop(boolean stop) {
+        this.stop = stop;
     }
 
     @Override
