@@ -71,6 +71,7 @@ public class ControlFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
                 immortals = setupInmortals();
+                Immortal.pause=false;
 
                 if (immortals != null) {
                     for (Immortal im : immortals) {

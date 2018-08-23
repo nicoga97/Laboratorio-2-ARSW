@@ -1,0 +1,2 @@
+•	Si se podria presentar una condicion de Carrera por que se deberia sincronizar el inmortal peleador y el atacado, de manera que se puede presentar que el atacado este atacando al atacante al mismo tiempo por lo cual se da una condicion de Carrera.
+•	Lo que se debe realizar es no sincronizar y que cada peleador tenga la habilidad de identificar cuando murio y de esta manera el mismo eliminarse de la lista
